@@ -33,6 +33,14 @@
       <link rel="stylesheet" href="css/owl.theme.default.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
       <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+      <!--   Send email -->
+      <script src="link.js" type="text/javascript"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+      <script type="text/javascript">
+          (function() {
+              emailjs.init("sOOXPAKq_2xZm2iql");
+          })();
+      </script>
    </head>
    <body>
       <!-- header section start -->
@@ -183,7 +191,7 @@
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <h1 class="about_taital">About Phoenix Automation Company</h1>
+                  <h1 class="about_taital">About Phoenix Automation </h1>
                </div>
             </div>
          </div>
@@ -193,8 +201,12 @@
             <div class="row">
                <div class="col-md-6">
                   <div class="about_taital_main">
-                     <h1 class="slightly_text">Slightly Believable. If You Are Going</h1>
-                     <p class="lorem_text">Phoenix Automation Company specializes in providing comprehensive automation solutions, building electrical installations, custom software development, and maintenance services. We enhance industrial processes with innovative PLCs, SCADA systems, and advanced control technologies, ensuring efficiency and safety. Our electrical installations adhere to Ethiopian standards, delivering reliable and compliant systems. Our tailored software solutions streamline operations and optimize workflows, while our maintenance services focus on predictive and preventive care, minimizing downtime and extending equipment life. At Phoenix Automation, we are committed to driving productivity and innovation in every project we undertake.</p>
+                     <h1 class="slightly_text">At Phoenix Automation,</h1>
+                     <p class="lorem_text">we are committed to transforming industries with cutting-edge automation solutions. Founded with a vision to empower businesses through innovative technology, we specialize in providing high-quality industrial automation, IoT integration, and control systems.<br>
+
+                        Our expert team combines technical expertise with a deep understanding of client needs, ensuring that we deliver customized solutions that enhance efficiency, reduce downtime, and optimize operational processes. We pride ourselves on staying ahead of technological advancements, continually refining our services to meet the growing demands of various sectors, including manufacturing, energy, and infrastructure.<br>
+                        
+                        Driven by a passion for excellence, Phoenix Automation stands as a trusted partner for businesses aiming to scale and improve their competitive edge through intelligent automation. We are committed to providing long-lasting, reliable solutions that push the boundaries of what is possible in industrial automation.</p>
                      <div class="readmore_btn"><a href="#">Read More</a></div>
                   </div>
                </div>
@@ -270,10 +282,10 @@
          <div class="container">
             <div class="row">
                <div class="col-md-12">
-                  <h1 class="shop_taital">Do you need any help for <span style="color: #f9b116;"> Automation Solution ?</span></h1>
-                  <p class="shop_text">At Phoenix Automation, we specialize in providing cutting-edge automation solutions tailored to your specific needs. Our team is dedicated to enhancing efficiency and optimizing processes across various industries.</p>
+                  <h1 class="shop_taital"> <span style="color: black;"> Do you need any help for </span><span style="color: #f9b116;">Automation Solution ?</span></h1>
+                  <p class="shop_text"> <span style="color: black;">At Phoenix Automation, we specialize in providing cutting-edge automation solutions tailored to your specific needs. Our team is dedicated to enhancing efficiency and optimizing processes across various industries.</span></p>
                   <div class="btn_main">
-                     <div class="quote_bt"><a href="#">Get A Quote</a></div>
+                     <div class="quote_bt"><a href="contact.html">Email Now</a></div>
                      <div class="call_bt active"><a href="contact.html">Call Now</a></div>
                   </div>
                </div>
@@ -290,11 +302,11 @@
                      <h1 class="contact_taital">Get In Touch</h1>
                      <form action="">
                         <div class="mail_section_1">
-                           <input type="text" class="mail_text" placeholder="Name" name="Name">
-                           <input type="text" class="mail_text" placeholder="Phone Number" name="Phone Number"> 
-                           <input type="text" class="mail_text" placeholder="Email" name="Email">
+                           <input type="text" class="mail_text" placeholder="Name" id = "name" name="Name">
+                           <input type="text" class="mail_text" placeholder="Email" id = "email" name="Email">
+                           <input type="text" class="mail_text" placeholder="Phone" id = "email" name="phone">
                            <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
-                           <div class="send_bt"><a href="#">SEND</a></div>
+                           <div class="send_bt" > <a href="#"> SEND </a></div>
                         </div>
                      </form>
                   </div>
@@ -330,12 +342,13 @@
                   </div>
                   <div class="col-lg-4 col-md-4">
                      <h2 class="useful_text">Blog</h2>
-                     <p class="footer_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                     <p class="footer_text">Explore the latest trends, insights, and innovations in industrial automation and technology solutions.</p>
                      <div class="social_icon">
                         <ul>
-                           <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                           <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                           <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                           <li><a href="https://www.facebook.com/Phoenix1autmation"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                           <li><a href="https://www.tiktok.com/@phoenix.com.et"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                           <li><a href="https://www.linkedin.com/company/phoenix1automation"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> 
+                     
                         </ul>
                      </div>
                   </div>
